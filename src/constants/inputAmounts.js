@@ -24,22 +24,15 @@ const inputAmounts = [
     id: 4,
     type: "text",
     name: "password",
-    placeholder: "Enter password",
+    placeholder: "Enter Password",
     label: "Password",
   },
   {
     id: 5,
     type: "text",
-    name: "ConfirmPassword",
+    name: "confirmPassword",
     placeholder: "Enter Confirm Password",
-    label: "Confirm Password",
-  },
-  {
-    id: 6,
-    type: "checkBox",
-    name: "roles",
-    placeholder: "",
-    label: "I agree to terms and conditions",
+    label: "confirm Password",
   },
 ];
 

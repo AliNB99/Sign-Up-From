@@ -1,11 +1,15 @@
 import React from "react";
-import SignUpForm from "./SignUpForm";
+import SignUpForm from "./pages/SignUpForm";
+import { Navigate, Route, Routes } from "react-router-dom";
+import LoginForm from "./pages/LoginForm";
 
 function App() {
   return (
-    <div>
-      <SignUpForm />
-    </div>
+    <Routes>
+      <Route path="/" element={<Navigate to="/sign" />} />
+      <Route path="/sign" element={<SignUpForm />} />
+      <Route path="/login" element={<LoginForm />} />
+    </Routes>
   );
 }
 
